@@ -1,7 +1,12 @@
 function firstChar(text) {
   // your code here
 	  let x = text.trim()
-  x.length==0?return "":return x[0]
+    if(x.length==0){
+      return ""
+  }
+  else{
+      return x[0]
+  }
 }
 
 // Do not change the code below
